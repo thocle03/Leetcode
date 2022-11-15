@@ -9,7 +9,7 @@ class Solution:
         def dfs(p, q):
             if p is None and q is None:
                 return True
-            
+            coucou
             if p is None or q is None or p.val != q.val:
                 return False
             
